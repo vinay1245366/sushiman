@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Sushiman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="icon" href="assets/sushi-9.png">
+
+</head>
+
+<body>
+    <div class="container">
+        <div style="font-family:'playfair display';
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+            background-color: #b2454a; 
+            padding: 15px; 
+            padding-left: 25%;">SUSHIMAN</div>
+        <div style="display: grid;
+            grid-template-columns: repeat(5,1fr); 
+            font-family: 'playfair display'; 
+            color: #121212; 
+            font-weight: 500; 
+            padding:20px 0px ;
+            padding-left:150px;
+            grid-gap: 15px; 
+            justify-items:end;
+            place-items: center end;">
+            <div><a href="#menu-section">MENU</a></div>
+            <div> <a href="#food-section">FOOD</a></div>
+            <div> <a href="#services-section">SERVICES</a></div>
+            <div> <a href="#aboutus-section"> ABOUT US</a></div>
+            <div> <a href="#search-section">SEARCH</a></div>
+        </div>
+    </div>
+    <img src="assets/sushi-1.png" style="position: absolute; top: 10vh;
+        width: 400px;">
+    <div class="container">
+        <div style="background-color: #b2454a; 
+            font-size: 70px;
+             font-family: 'Franklin Gothic Medium';
+             font-weight: 500;
+             color:white;
+             display: grid;
+             place-items: end start;">σ<br>ε<br>φ</div>
+        <div style="display: grid;
+            grid-gap: 40px;">
+
+            <div style="font-family: 'playfair display ';
+                font-weight: 700;
+                padding-left: 100px;
+                font-size: 70px;">Feel the taste of Japanese food</div>
+            <div style="font-family:'plus jakarta sans';
+                 color: #121212; 
+                 font-size: 20px;
+                 padding-left: 100px;
+                 line-height:32px ;">Feel the taste of the bmost popular japanese <br> food from anywhere and anytime.
+            </div>
+            <div style="display: grid;
+                grid-template-columns: 200px 200px;
+                grid-gap: 30px;
+                padding-left: 100px;
+                align-items: center;
+                text-align: center;">
+                <div class="order_place">Order now</div>
+                <div style="display: grid; 
+                    grid-template-columns: 60px 1fr;
+                    grid-gap: 10px; 
+                    place-items: center;">
+                    <div> <img src="assets/play-circle.svg"></div>
+                    <div style="color: #020202; font-family: 'Times New Roman', Times, serif;"> How to Order
+                    </div>
+                </div>
+            </div>
+            <div
+                style="display: grid;grid-template-columns:auto auto;grid-gap: 20px; background-color: white;padding: 20px; place-items: center;">
+                <div style="display: grid; grid-template-columns: auto auto; grid-gap: 20px; place-items: center;">
+                    <div style="font-family: 'playfair display ';
+                    font-size: 62px;">24k+</div>
+                    <div style="font-family: 'plus jakarta sans';color: #121212; ">Happy customers</div>
+                </div>
+                <div style="display: grid;
+                grid-template-columns: auto auto; 
+                grid-gap: 20px;padding-left: 30px;
+                border-left: 1px solid rgba(2, 2, 2,0.1);">
+                    <div><img src="assets/user.png" width="40px" style="border-radius:100px ;"></div>
+                    <div style="font-family: 'playfair display ';
+                color: #121212;
+                font-size: 12px; line-height: 20px;">this is the best japanese food <br> delivery service that ever existed
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- about section-->
+    <div id="aboutus-section" class="container">
+        <div style="position: relative;">
+            <div style="padding: 80px 0px;
+            display: grid;
+            place-items: center;
+            background-color: white;
+            background-image: url(assets/about_bg1.png);
+            background-size: cover;
+            background-position: top center;"> <img src="assets/sushi-3.png" width="250px" ></div>
+            <div style="background-color: black;
+            color: white;
+            border-top-left-radius:100px;
+            border-bottom-left-radius: 100px;
+            padding: 20px 32px;
+            position: absolute;
+            top: 50%;
+            right: 0px;
+            width: 40%;
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 30px;
+            font-family:'plus jakarta sans';
+            font-size: 18px;">
+            <div>Learn More</div>
+            <div><img src="assets/arrow-up-right.svg"></div>
+            </div>
+            <div style="padding: 80px 0px;
+            display: grid;
+            margin-top: 10px;
+            place-items: center;
+            background-color: white;
+            background-image: url(assets/about_bg1.png);
+            background-size: cover;
+            background-position: top center;"><img src="assets/sushi-2.png" width="250px"></div>
+           
+        </div>
+        <div style="display: grid; padding: 100px; grid-gap: 20px;">
+            <div style="font-family: 'plus jakarta sans ';
+            font-size: 18px; color: #b2454a;">About us /寿司人就是</div>      
+            <div style="font-family: 'playfair display ';
+            font-size: 50px; color:#121212;font-weight:600; "> Our mission is to bring true japanese flavors to you.</div>
+            <div style="font-family: 'playfair display ';
+            font-size: 18px; color:#121212;line-height: 25px; "> we will continue to provide the experience of Omotenashi, the japanese
+                mindset of hospitalty, with our shopping and dining for our customers.
+            </div>
+        </div>
+    </div>
+    <!-- menu section-->
+    <div 
+    id="menu-section"
+    style="
+      background-color: #b1454a;
+      background-image: url(assets/popular_bg.png);
+      background-size:cover;
+      background-position: top center;
+      padding: 100px 60px;
+      display: grid;
+      grid-template-columns: 1fr;
+      place-items: center;
+      grid-gap: 70px;
+    "
+  ><div style="
+  font-family: 'Playfair Display';
+  font-size: 56px;
+  font-weight: 600;
+  color: white;
+">Popular Food / 人気</div>
+  <div style="
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 20px;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 16px;
+  color: white;
+">
+<div style="
+background-color: white;
+color: #b1454a;
+border-radius: 46px;
+padding: 10px 28px;
+display: grid;
+align-items: center;
+">All</div>
+<div class="menu-item-button" >
+    <div class="menu-item-image" style="background-image: url(assets/sushi-9.png);"></div> 
+    <div>Sushi</div>
+</div>
+<div class="menu-item-button">
+    <div class="menu-item-image" style="background-image: url(assets/sushi-8.png);"></div> 
+    <div>Ramen</div>
+</div>
+<div class="menu-item-button">
+    <div class="menu-item-image" style="background-image: url(assets/sushi-7.png);"></div> 
+    <div>Udon</div>
+</div>
+<div class="menu-item-button">
+    <div class="menu-item-image" style="background-image: url(assets/sushi-6.png);"></div> 
+    <div>Danggo</div>
+</div>
+</div>
+  
+<div
+style="
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 40px;
+  place-items: center;
+"
+>
+<div
+  style="
+    display: grid;
+    grid-gap: 30px;
+    place-items: center;
+    color: white;
+    border-radius: 36px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 50px 0px;
+    width: 300px;
+  "
+>
+  <div><img src="assets/sushi-12.png" width="100px" /></div>
+  <div
+    style="
+      font-family: 'Playfair Display';
+      font-size: 24px;
+      font-weight: 600;
+      color: white;
+    "
+  >
+    Chezu Sushi
+  </div>
+  <div
+    style="
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 40px;
+      font-family: 'Plus Jakarta Sans';
+      font-size: 20px;
+      font-weight: 500;
+      color: white;
+    "
+  >
+    <div><img src="assets/star.svg" /> 4.9</div>
+    <div>$21.00</div>
+  </div>
+</div>
+<div
+          style="
+            display: grid;
+            grid-gap: 30px;
+            place-items: center;
+            border-radius: 36px;
+            background-color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 90px 0px;
+            width: 300px;
+          "
+        >
+          <div><img src="assets/sushi-11.png" width="150px" /></div>
+          <div
+            style="
+              font-family: 'Playfair Display';
+              font-size: 32px;
+              font-weight: 600;
+              color: #555555;
+            "
+          >
+            Original Sushi
+          </div>
+          <div
+            style="
+              display: grid;
+              grid-template-columns: auto auto;
+              grid-gap: 40px;
+              font-family: 'Plus Jakarta Sans';
+              font-size: 24px;
+              font-weight: 500;
+            "
+          >
+            <div style="color: #888888">
+              <img src="assets/star.svg" /> <span>5.0</span>
+            </div>
+            <div>$19.00</div>
+          </div>
+        </div>
+        <div
+          style="
+            display: grid;
+            grid-gap: 30px;
+            place-items: center;
+            color: white;
+            border-radius: 36px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 50px 0px;
+            width: 300px;
+          "
+        >
+          <div><img src="assets/sushi-8.png" width="100px" /></div>
+          <div
+            style="
+              font-family: 'Playfair Display';
+              font-size: 24px;
+              font-weight: 600;
+              color: white;
+            "
+          >
+            Ramen Legendo
+          </div>
+          <div
+            style="
+              display: grid;
+              grid-template-columns: auto auto;
+              grid-gap: 40px;
+              font-family: 'Plus Jakarta Sans';
+              font-size: 20px;
+              font-weight: 500;
+              color: white;
+            "
+          >
+            <div><img src="assets/star.svg" /> <span>4.7</span></div>
+            <div>$13.00</div>
+          </div>
+        </div>
+      </div>
+      <div
+        style="
+          font-family: 'Plus Jakarta Sans';
+          font-size: 18px;
+          font-weight: 500;
+          color: white;
+          background-color: black;
+          padding: 25px 40px;
+          border-radius: 100px;
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-gap: 20px;
+          place-items: center;
+          margin-top: 20px;
+        "
+      >
+        <div>Explore Food</div>
+        <div><img src="assets/arrow-right.svg" width="20px" /></div>
+      </div>
+</div>
+<!--food section-->
+<div id="food-section" style="position: relative">
+  <div style="display: grid; grid-template-columns: 1fr 1fr">
+    <div
+      style="
+        background-color: #fff0de;
+        padding: 100px 0px;
+        display: grid;
+        place-content: center;
+        grid-gap: 30px;
+      "
+    >
+      <div
+        style="
+          color: #b1454a;
+          font-family: 'Plus Jakarta Sans';
+          font-size: 18px;
+        "
+      >
+        What’s Trending / トレンド
+      </div>
+      <div
+        style="
+          font-family: 'Playfair Display';
+          font-size: 64px;
+          font-weight: 600;
+        "
+      >
+        Japanese Sushi
+      </div>
+      <div
+        style="
+          color: #121212;
+          font-family: 'Plus Jakarta Sans';
+          font-size: 18px;
+        "
+      >
+        Feel the taste of the most delicious Sushi here.
+      </div>
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          padding-top: 30px;
+          color: #121212;
+          font-family: 'Plus Jakarta Sans';
+        "
+      >
+        <div style="display: grid; grid-gap: 30px">
+          <div class="food-item-checkmark-item">
+            <div class="food-item-checkmark"></div>
+            <div>Make Sushi</div>
+          </div>
+          <div class="food-item-checkmark-item">
+            <div class="food-item-checkmark"></div>
+            <div>Uramaki Sushi</div>
+          </div>
+          <div class="food-item-checkmark-item">
+            <div class="food-item-checkmark"></div>
+            <div>Temaki Sushi</div>
+          </div>
+        </div>
+        <div style="display: grid; grid-gap: 30px">
+          <div class="food-item-checkmark-item">
+            <div class="food-item-checkmark"></div>
+            <div>Oshizushi</div>
+          </div>
+          <div class="food-item-checkmark-item">
+            <div class="food-item-checkmark"></div>
+            <div>Nigiri Sushi</div>
+          </div>
+          <div class="food-item-checkmark-item">
+            <div class="food-item-checkmark"></div>
+            <div>Inari Sushi</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      style="
+        display: grid;
+        place-items: center;
+        background-color: white;
+        background-image: url(assets/about_bg1.png);
+        background-position: center;
+        background-size: contain;
+        position: relative;
+      "
+    >
+      <img src="assets/sushi-5.png" width="240px" />
+      <img
+        src="assets/arrow-vertical.svg"
+        style="position: absolute; left: -2.5px; bottom: 0px"
+      />
+    </div>
+  </div>
+  <div
+    style="
+      background-color: black;
+      color: white;
+      position: absolute;
+      left: calc(50% - 80px);
+      top: 44%;
+      z-index: 3;
+      width: 160px;
+      height: 160px;
+      border-radius: 100px;
+      font-family: 'Plus Jakarta Sans';
+      font-size: 18px;
+      display: grid;
+      place-items: center;
+    "
+  >
+    DISCOVER
+  </div>
+  <div style="display: grid; grid-template-columns: 1fr 1fr">
+    <div
+      style="
+        display: grid;
+        place-items: center;
+        background-color: white;
+        background-image: url(assets/japanese_drinks.png);
+        background-position: bottom;
+        background-size: cover;
+        position: relative;
+      "
+    >
+      <img src="assets/sushi-4.png" width="240px" />
+      <img
+        src="assets/arrow-vertical.svg"
+        style="position: absolute; right: -2.5px; top: 0%"
+      />
+      <img
+        src="assets/arrow-horizontal.svg"
+        style="position: absolute; top: -2.5px; right: 0%"
+      />
+    </div>
+    <div
+      style="
+        background-color: #fff0de;
+        padding: 100px 0px;
+        display: grid;
+        place-content: center;
+        grid-gap: 30px;
+        position: relative;
+      "
+    >
+      <img
+        src="assets/arrow-horizontal.svg"
+        style="position: absolute; top: -2.5px; left: 0%"
+      />
+      <div
+        style="
+          color: #b1454a;
+          font-family: 'Plus Jakarta Sans';
+          font-size: 18px;
+        "
+      >
+        What’s Trending / トレンド
+      </div>
+      <div
+        style="
+          font-family: 'Playfair Display';
+          font-size: 64px;
+          font-weight: 600;
+        "
+      >
+        Japanese Drinks
+      </div>
+      <div
+        style="
+          color: #121212;
+          font-family: 'Plus Jakarta Sans';
+          font-size: 18px;
+        "
+      >
+        Feel the taste of the most delicious Japense drinks here.
+      </div>
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          padding-top: 30px;
+          color: #121212;
+          font-family: 'Plus Jakarta Sans';
+        "
+      >
+        <div style="display: grid; grid-gap: 30px">
+          <div class="food-item-checkmark-item">
+            <div class="food-item-checkmark"></div>
+            <div>Oruncha</div>
+          </div>
+          <div class="food-item-checkmark-item">
+            <div class="food-item-checkmark"></div>
+            <div>Aojiru</div>
+          </div>
+          <div class="food-item-checkmark-item">
+            <div class="food-item-checkmark"></div>
+            <div>Kombu-cha</div>
+          </div>
+        </div>
+        <div style="display: grid; grid-gap: 30px">
+          <div class="food-item-checkmark-item">
+            <div class="food-item-checkmark"></div>
+            <div>Sakura Tea</div>
+          </div>
+          <div class="food-item-checkmark-item">
+            <div class="food-item-checkmark"></div>
+            <div>Ofukucha</div>
+          </div>
+          <div class="food-item-checkmark-item">
+            <div class="food-item-checkmark"></div>
+            <div>Mugicha</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- services -->
+<div
+  id="services-section"
+  style="
+    background-color: #b1454a;
+    display: grid;
+    grid-gap: 80px;
+    place-items: center;
+    color: white;
+    padding: 60px;
+    background-image: url(/assets/subscribe_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  "
+>
+  <div
+    style="
+      font-family: 'Playfair Display';
+      font-size: 88px;
+      font-weight: 600;
+      text-align: center;
+    "
+  >
+    Get offers straight<br />
+    to your inbox
+  </div>
+  <div
+    style="
+      font-family: 'Plus Jakarta Sans';
+      font-size: 18px;
+      font-weight: 300;
+    "
+  >
+    Sign up for the Sushiman newsletter
+  </div>
+  <div
+    style="
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 100px;
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 50px;
+      place-items: center;
+      padding: 20px 50px;
+    "
+  >
+    <div><input type="email" placeholder="Enter your email address" /></div>
+    <div
+      style="
+        background-color: #1f1e30;
+        padding: 20px 40px;
+        border-radius: 100px;
+      "
+    >
+      Get Started
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<div
+  style="
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center stretch;
+    padding: 40px;
+    background-color: white;
+  "
+>
+  <div
+    style="
+      font-family: 'Playfair Display';
+      font-size: 24px;
+      font-weight: 700;
+    "
+  >
+    <span style="color: #b1454a">SUSHI</span>MAN
+  </div>
+  <div
+    style="
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      grid-gap: 30px;
+      font-family: 'Plus Jakarta Sans';
+      color: #121212;
+      font-weight: 500;
+    "
+  >
+    <div>MENU</div>
+    <div>FOODS</div>
+    <div>SERVICES</div>
+    <div>ABOUT US</div>
+  </div>
+  <div
+    style="
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      justify-self: end;
+      align-items: center;
+      grid-gap: 20px;
+    "
+  >
+    <div
+      style="
+        background-color: #121212;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        background-image: url(assets/facebook.svg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+      "
+    ></div>
+    <div
+      style="
+        background-color: #121212;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        background-image: url(assets/instagram.svg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+      "
+    ></div>
+    <div
+      style="
+        background-color: #121212;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        background-image: url(assets/twitter.svg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+      "
+    ></div>
+  </div>
+</div>
+
+</body>
+
+</html>
